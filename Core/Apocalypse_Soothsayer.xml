@@ -2,9 +2,9 @@
 	<Units>
 		<Update>
 			<Where UnitType="UNIT_SOOTHSAYER"/>
-			<Set BaseMoves="4"/>
+			<Set BaseMoves="3"/>
 			<Set CostProgressionModel="NO_COST_PROGRESSION" />
-			<Set CostProgressionParam1=0 />
+			<Set CostProgressionParam1="0" />
 		</Update>
 	</Units>
 	<TypeTags>
