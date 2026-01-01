@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="2f92faf8-22c8-4a8b-bb6e-53a62afd37d3" version="1">
+  <Properties>
+    <Name>Apocalypse Mode Improved</Name>
+    <Description>Tweaks to Apocalypse Mode to MORE BETTER.</Description>
+    <Created>1601934504</Created>
+    <Teaser>Tweaks to Apocalypse Mode to MORE BETTER.</Teaser>
+    <Authors>Occidare</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <ActionCriteria>
+    <Criteria id="ApocalypseMode">
+      <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+      <ConfigurationValueMatches>
+        <Group>Game</Group>
+        <ConfigurationId>GAMEMODE_APOCALYPSE</ConfigurationId>
+        <Value>1</Value>
+      </ConfigurationValueMatches>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions />
+  <InGameActions>
+    <UpdateDatabase id="Apocalypse">
+      <Properties>
+        <LoadOrder>15</LoadOrder>
+      </Properties>
+      <Criteria>ApocalypseMode</Criteria>
+      <File>Core/Apocalypse_RandomEvents.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="ApocalypseText">
+      <Properties>
+        <LoadOrder>15</LoadOrder>
+      </Properties>
+      <Criteria>ApocalypseMode</Criteria>
+      <File>Core/Apocalypse_Localization.sql</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>Core/Apocalypse_Localization.sql</File>
+    <File>Core/Apocalypse_RandomEvents.sql</File>
+  </Files>
+</Mod>
