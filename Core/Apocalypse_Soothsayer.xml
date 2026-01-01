@@ -1,0 +1,36 @@
+<GameData>
+	<Units>
+		<Update>
+			<Where UnitType="UNIT_SOOTHSAYER"/>
+			<Set BaseMoves="4"/>
+		</Update>
+	</Units>
+    <!-- <Types>
+		<Row Type="ABILITY_INDOCTRINATE" Kind="KIND_ABILITY"/>
+	</Types>
+    <TypeTags>
+		<Row Type="ABILITY_INDOCTRINATE" Tag="CLASS_SOOTHSAYER"/>
+	</TypeTags>
+    <UnitAbilities>
+		<Row UnitAbilityType="ABILITY_INDOCTRINATE" Name="LOC_ABILITY_SPREAD_DISSENT_NAME" Description="LOC_ABILITY_SPREAD_DISSENT_DESCRIPTION"/>
+	</UnitAbilities>
+    <UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_INDOCTRINATE</UnitAbilityType>
+			<ModifierId>INDOCTRINATE_LOYALTY_DAMAGE</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+    <Modifiers>
+        <Row>
+			<ModifierId>INDOCTRINATE_LOYALTY_DAMAGE</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_DIRECT_LOYALTY_DAMAGE</ModifierType>
+		</Row>
+    </Modifiers>
+    <ModifierArguments>
+        <Row>
+			<ModifierId>INDOCTRINATE_LOYALTY_DAMAGE</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
+		</Row>
+    </ModifierArguments> -->
+</GameData>
