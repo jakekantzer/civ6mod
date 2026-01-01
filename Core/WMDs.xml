@@ -19,4 +19,19 @@
             <Set ICBMStrikeRange="999" />
         </Update>
     </WMDs>
+    <!-- Satellites tech reveals entire map for easier WMDing, like in Civ V -->
+    <Modifiers>
+        <Row>
+			<ModifierId>TECH_EXPLORE_ENTIRE_MAP</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_EXPLORE_ENTIRE_MAP</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+    </Modifiers>
+    <TechnologyModifiers>
+        <Row>
+            <TechnologyType>TECH_SATELLITES</TechnologyType>
+            <ModifierId>TECH_EXPLORE_ENTIRE_MAP</ModifierId>
+        </Row>
+    </TechnologyModifiers>
 </GameData>
