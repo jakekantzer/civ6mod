@@ -2,6 +2,7 @@
 -- Allow all disasters to happen at the Apocalypse stage
 -- Increase odds of Comet Strikes at the Apocalypse stage
 -- Increase odds of Meteor Showers
+-- Double CO2 production of all resources
 
 INSERT OR REPLACE INTO RandomEvent_Frequencies 
         (RandomEventType,    RealismSettingType,                OccurrencesPerGame)
@@ -21,3 +22,7 @@ VALUES  ('RANDOM_EVENT_COMET_STRIKE',            'REALISM_SETTING_MEGADISASTERS'
         ('RANDOM_EVENT_COMET_STRIKE_TARGETED',   'REALISM_SETTING_APOCALYPSE',       200),
         ('RANDOM_EVENT_METEOR_SHOWER',           'REALISM_SETTING_MEGADISASTERS',    30),
         ('RANDOM_EVENT_METEOR_SHOWER',           'REALISM_SETTING_APOCALYPSE',       30);
+
+UPDATE Resource_Consumption
+SET CO2perkWh = CO2perkWh * 2
+WHERE CO2perkWh > 0
