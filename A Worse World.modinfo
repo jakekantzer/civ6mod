@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mod id="2f92faf8-22c8-4a8b-bb6e-53a62afd37d3" version="1">
   <Properties>
-    <Name>Apocalypse Mode Improved</Name>
-    <Description>Tweaks to Apocalypse Mode to be MORE BETTER.</Description>
-    <Created>1601934504</Created>
-    <Teaser>Tweaks to Apocalypse Mode to be MORE BETTER.</Teaser>
+    <Name>A Worse World</Name>
+    <Description>Tweaks that make the world a slightly worse place.</Description>
+    <Created>1767229200</Created>
+    <Teaser>Tweaks that make the world a slightly worse place.</Teaser>
     <Authors>Occidare</Authors>
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
   </Properties>
@@ -48,6 +48,12 @@
       <Criteria>SecretSocietiesMode</Criteria>
       <File>Core/Apocalypse_Soothsayer.xml</File>
     </UpdateDatabase>
+    <UpdateDatabase id="WMDs">
+      <Properties>
+        <LoadOrder>15</LoadOrder>
+      </Properties>
+      <File>Core/WMDs.xml</File>
+    </UpdateDatabase>
     <UpdateText id="ApocalypseText">
       <Properties>
         <LoadOrder>15</LoadOrder>
@@ -60,5 +66,6 @@
     <File>Core/Apocalypse_Localization.sql</File>
     <File>Core/Apocalypse_RandomEvents.sql</File>
     <File>Core/Apocalypse_Soothsayer.xml</File>
+    <File>Core/WMDs.xml</File>
   </Files>
 </Mod>

@@ -1,0 +1,22 @@
+<GameData>
+	<!-- Change Operation Ivy to share tech prereq with Manhattan Project - still requires Manhattan first -->
+    <Projects>
+        <Update>
+            <Where ProjectType="PROJECT_OPERATION_IVY" />
+            <Set PrereqTech="TECH_NUCLEAR_FISSION" />
+        </Update>
+    </Projects>
+    <!-- Increase blast radius and range of all WMDs -->
+    <WMDs>
+        <Update>
+            <Where WeaponType="WMD_NUCLEAR_DEVICE" />
+            <Set BlastRadius="2" />
+            <Set ICBMStrikeRange="999" />
+        </Update>
+        <Update>
+            <Where WeaponType="WMD_THERMONUCLEAR_DEVICE" />
+            <Set BlastRadius="4" />
+            <Set ICBMStrikeRange="999" />
+        </Update>
+    </WMDs>
+</GameData>
