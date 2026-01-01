@@ -10,13 +10,17 @@
     <WMDs>
         <Update>
             <Where WeaponType="WMD_NUCLEAR_DEVICE" />
-            <Set BlastRadius="2" />
-            <Set ICBMStrikeRange="999" />
+            <Set>
+                <BlastRadius>4</BlastRadius>
+                <ICBMStrikeRange>200</ICBMStrikeRange>
+            </Set>
         </Update>
         <Update>
             <Where WeaponType="WMD_THERMONUCLEAR_DEVICE" />
-            <Set BlastRadius="4" />
-            <Set ICBMStrikeRange="999" />
+            <Set>
+                <BlastRadius>8</BlastRadius>
+                <ICBMStrikeRange>200</ICBMStrikeRange>
+            </Set>
         </Update>
     </WMDs>
     <!-- Satellites tech reveals entire map for easier WMDing, like in Civ V -->

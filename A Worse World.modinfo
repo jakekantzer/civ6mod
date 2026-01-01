@@ -40,13 +40,14 @@
       </Properties>
       <Criteria>ApocalypseMode</Criteria>
       <File>Core/Apocalypse_RandomEvents.sql</File>
+      <File>Core/Apocalypse_Soothsayer.xml</File>
     </UpdateDatabase>
     <UpdateDatabase id="Soothsayer">
       <Properties>
         <LoadOrder>15</LoadOrder>
       </Properties>
       <Criteria>SecretSocietiesMode</Criteria>
-      <File>Core/Apocalypse_Soothsayer.xml</File>
+      <File>Core/SecretSocieties_Cultist.xml</File>
     </UpdateDatabase>
     <UpdateDatabase id="WMDs">
       <Properties>
@@ -66,6 +67,7 @@
     <File>Core/Apocalypse_Localization.sql</File>
     <File>Core/Apocalypse_RandomEvents.sql</File>
     <File>Core/Apocalypse_Soothsayer.xml</File>
+    <File>Core/SecretSocieties_Cultist.xml</File>
     <File>Core/WMDs.xml</File>
   </Files>
 </Mod>
