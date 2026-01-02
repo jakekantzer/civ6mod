@@ -49,10 +49,11 @@
       <Criteria>SecretSocietiesMode</Criteria>
       <File>Core/SecretSocieties_Cultist.xml</File>
     </UpdateDatabase>
-    <UpdateDatabase id="WMDs">
+    <UpdateDatabase id="BaseFiles">
       <Properties>
         <LoadOrder>15</LoadOrder>
       </Properties>
+      <File>Core/Movement.sql</File>
       <File>Core/WMDs.xml</File>
     </UpdateDatabase>
     <UpdateText id="ApocalypseText">
@@ -68,6 +69,7 @@
     <File>Core/Apocalypse_RandomEvents.sql</File>
     <File>Core/Apocalypse_Soothsayer.xml</File>
     <File>Core/SecretSocieties_Cultist.xml</File>
+    <File>Core/Movement.sql</File>
     <File>Core/WMDs.xml</File>
   </Files>
 </Mod>
