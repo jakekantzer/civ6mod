@@ -39,7 +39,7 @@
         <LoadOrder>15</LoadOrder>
       </Properties>
       <Criteria>ApocalypseMode</Criteria>
-      <File>Database/Apocalypse_RandomEvents.sql</File>
+      <File>Database/Apocalypse_Environment.sql</File>
       <File>Database/Apocalypse_Soothsayer.xml</File>
     </UpdateDatabase>
     <UpdateDatabase id="Soothsayer">
@@ -72,7 +72,7 @@
   </InGameActions>
   <Files>
     <File>Database/Apocalypse_Localization.sql</File>
-    <File>Database/Apocalypse_RandomEvents.sql</File>
+    <File>Database/Apocalypse_Environment.sql</File>
     <File>Database/Apocalypse_Soothsayer.xml</File>
     <File>Database/SecretSocieties_Cultist.xml</File>
     <File>Database/Movement.sql</File>

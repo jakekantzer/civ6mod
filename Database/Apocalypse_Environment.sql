@@ -1,8 +1,12 @@
+-- Increased blast radius
 -- Allow random Comet Strikes and targeted Comet Strikes to happen at any time
 -- Allow all disasters to happen at the Apocalypse stage
 -- Increase odds of Comet Strikes at the Apocalypse stage
 -- Increase odds of Meteor Showers
--- Double CO2 production of all resources
+-- Double CO2 production of all resources and deforestation effects
+-- Reduce CO2 diplomatic favor penalty to offset doubled CO2 production
+
+UPDATE RandomEvents SET Hexes=Hexes+2 WHERE RandomEventType = 'RANDOM_EVENT_COMET_STRIKE';
 
 INSERT OR REPLACE INTO RandomEvent_Frequencies 
         (RandomEventType,    RealismSettingType,                OccurrencesPerGame)
@@ -26,3 +30,11 @@ VALUES  ('RANDOM_EVENT_COMET_STRIKE',            'REALISM_SETTING_MEGADISASTERS'
 UPDATE Resource_Consumption
 SET CO2perkWh = CO2perkWh * 2
 WHERE CO2perkWh > 0
+
+UPDATE DeforestationEffects
+SET CO2PercentModifier = CO2PercentModifier
+WHERE CO2PercentModifier > 0
+
+UPDATE GlobalParameters
+SET Value = 6
+WHERE Name = 'FAVOR_CO2_DIVISOR'
