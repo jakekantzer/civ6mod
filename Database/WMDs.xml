@@ -12,7 +12,6 @@
             <Where WeaponType="WMD_NUCLEAR_DEVICE" />
             <Set>
                 <BlastRadius>3</BlastRadius>
-                <!-- <ICBMStrikeRange>200</ICBMStrikeRange> -->
             </Set>
         </Update>
         <Update>

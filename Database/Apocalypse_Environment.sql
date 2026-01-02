@@ -28,13 +28,13 @@ VALUES  ('RANDOM_EVENT_COMET_STRIKE',            'REALISM_SETTING_MEGADISASTERS'
         ('RANDOM_EVENT_METEOR_SHOWER',           'REALISM_SETTING_APOCALYPSE',       30);
 
 UPDATE Resource_Consumption
-SET CO2perkWh = CO2perkWh * 2
-WHERE CO2perkWh > 0
+SET CO2perkWh = CO2perkWh*2
+WHERE CO2perkWh > 0;
 
 UPDATE DeforestationEffects
-SET CO2PercentModifier = CO2PercentModifier
-WHERE CO2PercentModifier > 0
+SET CO2PercentModifier = CO2PercentModifier*2
+WHERE CO2PercentModifier > 0;
 
 UPDATE GlobalParameters
 SET Value = 6
-WHERE Name = 'FAVOR_CO2_DIVISOR'
+WHERE Name = 'FAVOR_CO2_DIVISOR';
