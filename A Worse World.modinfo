@@ -39,37 +39,44 @@
         <LoadOrder>15</LoadOrder>
       </Properties>
       <Criteria>ApocalypseMode</Criteria>
-      <File>Core/Apocalypse_RandomEvents.sql</File>
-      <File>Core/Apocalypse_Soothsayer.xml</File>
+      <File>Database/Apocalypse_RandomEvents.sql</File>
+      <File>Database/Apocalypse_Soothsayer.xml</File>
     </UpdateDatabase>
     <UpdateDatabase id="Soothsayer">
       <Properties>
         <LoadOrder>15</LoadOrder>
       </Properties>
       <Criteria>SecretSocietiesMode</Criteria>
-      <File>Core/SecretSocieties_Cultist.xml</File>
+      <File>Database/SecretSocieties_Cultist.xml</File>
     </UpdateDatabase>
     <UpdateDatabase id="BaseFiles">
       <Properties>
         <LoadOrder>15</LoadOrder>
       </Properties>
-      <File>Core/Movement.sql</File>
-      <File>Core/WMDs.xml</File>
+      <File>Database/Movement.sql</File>
+      <File>Database/WMDs.xml</File>
     </UpdateDatabase>
     <UpdateText id="ApocalypseText">
       <Properties>
         <LoadOrder>15</LoadOrder>
       </Properties>
       <Criteria>ApocalypseMode</Criteria>
-      <File>Core/Apocalypse_Localization.sql</File>
+      <File>Database/Apocalypse_Localization.sql</File>
     </UpdateText>
+    <AddGameplayScripts id="WMDs_Script">
+      <Properties>
+          <LoadOrder>20500</LoadOrder>
+      </Properties>
+      <File priority="10">Scripts/WMDs.lua</File>
+    </AddGameplayScripts>
   </InGameActions>
   <Files>
-    <File>Core/Apocalypse_Localization.sql</File>
-    <File>Core/Apocalypse_RandomEvents.sql</File>
-    <File>Core/Apocalypse_Soothsayer.xml</File>
-    <File>Core/SecretSocieties_Cultist.xml</File>
-    <File>Core/Movement.sql</File>
-    <File>Core/WMDs.xml</File>
+    <File>Database/Apocalypse_Localization.sql</File>
+    <File>Database/Apocalypse_RandomEvents.sql</File>
+    <File>Database/Apocalypse_Soothsayer.xml</File>
+    <File>Database/SecretSocieties_Cultist.xml</File>
+    <File>Database/Movement.sql</File>
+    <File>Database/WMDs.xml</File>
+    <File>Scripts/WMDs.lua</File>
   </Files>
 </Mod>
