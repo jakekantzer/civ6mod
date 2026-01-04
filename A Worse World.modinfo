@@ -53,7 +53,7 @@
       <Properties>
         <LoadOrder>15</LoadOrder>
       </Properties>
-      <File>Database/Movement.sql</File>
+      <File>Database/Miscellaneous.sql</File>
       <File>Database/WMDs.xml</File>
     </UpdateDatabase>
     <UpdateText id="ApocalypseText">
@@ -75,7 +75,7 @@
     <File>Database/Apocalypse_Environment.sql</File>
     <File>Database/Apocalypse_Soothsayer.xml</File>
     <File>Database/SecretSocieties_Cultist.xml</File>
-    <File>Database/Movement.sql</File>
+    <File>Database/Miscellaneous.sql</File>
     <File>Database/WMDs.xml</File>
     <File>Scripts/WMDs.lua</File>
   </Files>
