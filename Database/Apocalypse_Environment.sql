@@ -6,7 +6,7 @@
 -- Double CO2 production of all resources and deforestation effects
 -- Reduce CO2 diplomatic favor penalty to offset doubled CO2 production
 
-UPDATE RandomEvents SET Hexes=Hexes+2 WHERE RandomEventType = 'RANDOM_EVENT_COMET_STRIKE';
+UPDATE RandomEvents SET Hexes=Hexes+3 WHERE RandomEventType = 'RANDOM_EVENT_COMET_STRIKE';
 
 INSERT OR REPLACE INTO RandomEvent_Frequencies 
         (RandomEventType,    RealismSettingType,                OccurrencesPerGame)
