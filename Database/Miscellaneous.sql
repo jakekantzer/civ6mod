@@ -9,7 +9,7 @@ UPDATE GlobalParameters SET Value=Value+1 WHERE Name='MOVEMENT_WHILE_EMBARKED_BA
 -- Reduce cost of Spaceport
 UPDATE Districts SET Cost=Cost*0.7 WHERE DistrictType='DISTRICT_SPACEPORT';
 -- Reduce cost of space projects
-UPDATE Projects SET Cost=Cost*0.7 WHERE SpaceRace=1
+UPDATE Projects SET Cost=Cost*0.7 WHERE SpaceRace=1;
 
 -- Spies can be bought with gold
 UPDATE Units SET PurchaseYield='YIELD_GOLD' WHERE UnitType = 'UNIT_SPY';
