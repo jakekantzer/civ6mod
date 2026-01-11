@@ -13,3 +13,9 @@ UPDATE Projects SET Cost=Cost*0.7 WHERE SpaceRace=1;
 
 -- Spies can be bought with gold
 UPDATE Units SET PurchaseYield='YIELD_GOLD' WHERE UnitType = 'UNIT_SPY';
+
+-- Make Cliffs of Dover a little better
+UPDATE Features SET DoubleAdjacentTerrainYield=1 WHERE FeatureType = 'FEATURE_CLIFFS_DOVER';
+
+-- Make Comet Lakes a little better
+UPDATE Features SET DoubleAdjacentTerrainYield=1 WHERE FeatureType = 'FEATURE_COMET_LAKE';
