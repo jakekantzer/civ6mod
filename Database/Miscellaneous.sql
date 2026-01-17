@@ -34,4 +34,4 @@ UPDATE GlobalParameters SET Value=Value-1 WHERE Name = 'BARBARIAN_DEFENSE_ALL_UN
 
 UPDATE BarbarianTribes SET RaidingBoldness=RaidingBoldness+5 WHERE Name='LOC_BARBARIAN_CLAN_TYPE_NAVAL';
 UPDATE BarbarianTribes SET CityAttackBoldness=CityAttackBoldness+5 WHERE Name='LOC_BARBARIAN_CLAN_TYPE_NAVAL';
-UPDATE BarbarianTribes SET DefenderTag = 'CLASS_RANGED' WHERE DefenderTag = 'CLASS_ANTI_CAVALRY';
+UPDATE BarbarianTribes SET DefenderTag = 'CLASS_MELEE' WHERE DefenderTag = 'CLASS_ANTI_CAVALRY';
