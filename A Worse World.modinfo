@@ -69,6 +69,9 @@
       </Properties>
       <File priority="10">Scripts/WMDs.lua</File>
     </AddGameplayScripts>
+    <ImportFiles id="MapScripts">
+      <File>Maps/Utility/CoastalLowlands.lua</File>
+    </ImportFiles>
   </InGameActions>
   <Files>
     <File>Database/Apocalypse_Localization.sql</File>
@@ -77,6 +80,7 @@
     <File>Database/SecretSocieties_Cultist.xml</File>
     <File>Database/Miscellaneous.sql</File>
     <File>Database/WMDs.xml</File>
+    <File>Maps/Utility/CoastalLowlands.lua</File>
     <File>Scripts/WMDs.lua</File>
   </Files>
 </Mod>

@@ -39,3 +39,7 @@ WHERE CO2PercentModifier > 0;
 UPDATE GlobalParameters
 SET Value = 6
 WHERE Name = 'FAVOR_CO2_DIVISOR';
+
+UPDATE GlobalParameters
+SET Value = 75
+WHERE Name = 'CLIMATE_CHANGE_PERCENT_COASTAL_LOWLANDS';
