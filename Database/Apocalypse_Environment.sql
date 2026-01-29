@@ -7,6 +7,7 @@
 -- Reduce CO2 diplomatic favor penalty to offset doubled CO2 production
 
 UPDATE RandomEvents SET Hexes=Hexes+3 WHERE RandomEventType = 'RANDOM_EVENT_COMET_STRIKE';
+UPDATE RandomEvents SET Hexes=Hexes+6 WHERE RandomEventType = 'RANDOM_EVENT_COMET_STRIKE_TARGETED';
 
 INSERT OR REPLACE INTO RandomEvent_Frequencies 
         (RandomEventType,    RealismSettingType,                OccurrencesPerGame)
