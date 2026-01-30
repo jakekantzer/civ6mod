@@ -13,4 +13,8 @@
 		<Row Type="ABILITY_IGNORE_TERRAIN_COST" Tag="CLASS_SOOTHSAYER"/>
 		<Row Type="ABILITY_IGNORE_CROSSING_RIVERS_COST" Tag="CLASS_SOOTHSAYER"/>
 	</TypeTags>
+	<TypeProperties>
+        <Row Type="UNIT_SOOTHSAYER" Name="CAN_MOVE_AFTER_PURCHASE" Value="1" PropertyType="PROPERTYTYPE_IDENTITY"/>
+        <Row Type="UNIT_SOOTHSAYER" Name="CAN_TELEPORT_TO_CITY" Value="1" PropertyType="PROPERTYTYPE_IDENTITY"/>
+    </TypeProperties>
 </GameData>

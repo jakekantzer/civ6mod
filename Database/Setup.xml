@@ -1,0 +1,12 @@
+<GameData>
+	<Parameters>
+		<Row ConfigurationGroup="Game" ConfigurationId="AWW_COASTAL_FLOODS" DefaultValue="50" Description="LOC_AWW_FLOODING_DESCRIPTION" Domain="AWWCoastalFlooding" GroupId="AdvancedOptions" Hash="0" Name="LOC_AWW_FLOODING_NAME" ParameterId="AWWCoastalFloods" SortIndex="633"/>
+	</Parameters>
+	<DomainValues>
+		<Row Name="LOC_AWW_COASTALFLOOD_NAME_DISABLED" Domain="AWWCoastalFlooding" Description="LOC_SETTING_AWW_COASTALFLOOD_DESC_DISABLED" SortIndex="0" Value="0"/>
+		<Row Name="LOC_AWW_COASTALFLOOD_NAME_LOW" Domain="AWWCoastalFlooding" Description="LOC_SETTING_AWW_COASTALFLOOD_DESC_LOW" SortIndex="10" Value="20"/>
+		<Row Name="LOC_AWW_COASTALFLOOD_NAME_NORMAL" Domain="AWWCoastalFlooding" Description="LOC_SETTING_AWW_COASTALFLOOD_DESC_NORMAL" SortIndex="25" Value="50"/>
+		<Row Name="LOC_AWW_COASTALFLOOD_NAME_HIGH" Domain="AWWCoastalFlooding" Description="LOC_SETTING_AWW_COASTALFLOOD_DESC_HIGH" SortIndex="33" Value="100"/>
+		<Row Name="LOC_AWW_COASTALFLOOD_NAME_APOCALYPTIC" Domain="AWWCoastalFlooding" Description="LOC_SETTING_AWW_COASTALFLOOD_DESC_APOCALYPTIC" SortIndex="50" Value="1000"/>
+	</DomainValues>
+</GameData>

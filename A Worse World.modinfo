@@ -13,6 +13,7 @@
   </Dependencies>
   <References>
     <Mod id="1B394FE9-23DC-4868-8F0A-5220CB8FB427" title="Ethiopia" />
+    <Mod id="9DE86512-DE1A-400D-8C0A-AB46EBBF76B9" title="GranColumbiaMaya" />
   </References>
   <ActionCriteria>
     <Criteria id="ApocalypseMode">
@@ -32,7 +33,14 @@
       </ConfigurationValueMatches>
     </Criteria>
   </ActionCriteria>
-  <FrontEndActions />
+  <FrontEndActions>
+    <UpdateDatabase id="Setup">
+        <File>Database/Setup.xml</File>
+    </UpdateDatabase>
+    <UpdateText>
+      <File>Database/Text.xml</File>
+    </UpdateText>
+  </FrontEndActions>
   <InGameActions>
     <UpdateDatabase id="Apocalypse">
       <Properties>
@@ -74,6 +82,8 @@
     </ImportFiles>
   </InGameActions>
   <Files>
+    <File>Database/Setup.xml</File>
+    <File>Database/Text.xml</File>
     <File>Database/Apocalypse_Localization.sql</File>
     <File>Database/Apocalypse_Environment.sql</File>
     <File>Database/Apocalypse_Soothsayer.xml</File>

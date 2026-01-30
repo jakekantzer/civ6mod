@@ -1,6 +1,3 @@
----============================================================================================================
--- APOCALYPSE MODE IMPROVED: LOCALIZATION
---=============================================================================================================
 INSERT OR REPLACE INTO LocalizedText
         (Language,    Tag,    Text)
 VALUES  ('en_US',    'LOC_RANDOM_EVENT_COMET_STRIKE_DESCRIPTION',

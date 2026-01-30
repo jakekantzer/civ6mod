@@ -250,7 +250,9 @@ function MarkCoastalLowlands()
 	print("Map Generation - Marking Coastal Lowlands (Fixed-Target Wave Method)");
 
 	-- Get percentage setting
-	local numDesiredCoastalLowlandsPercentage = GlobalParameters.CLIMATE_CHANGE_PERCENT_COASTAL_LOWLANDS or 60;
+	local numDesiredCoastalLowlandsPercentage = GameConfiguration.GetValue("AWW_COASTAL_FLOODS");
+
+	print("Coastal Flooding percentage set to " .. tostring(numDesiredCoastalLowlandsPercentage));
 
 	-- Track which tiles have been marked at which elevation
 	local markedTiles = {};

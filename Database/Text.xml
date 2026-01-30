@@ -1,0 +1,37 @@
+<GameData>
+	<LocalizedText>
+		<Replace Language="en_US" Tag="LOC_AWW_FLOODING_NAME">
+			<Text>Coastal Flooding</Text>
+		</Replace>
+		<Replace Language="en_US" Tag="LOC_AWW_COASTALFLOOD_NAME_DISABLED">
+			<Text>Disabled</Text>
+		</Replace>
+		<Replace Language="en_US" Tag="LOC_AWW_COASTALFLOOD_NAME_LOW">
+			<Text>Low</Text>
+		</Replace>
+		<Replace Language="en_US" Tag="LOC_AWW_COASTALFLOOD_NAME_NORMAL">
+			<Text>Normal</Text>
+		</Replace>
+		<Replace Language="en_US" Tag="LOC_AWW_COASTALFLOOD_NAME_HIGH">
+			<Text>High</Text>
+		</Replace>
+		<Replace Language="en_US" Tag="LOC_AWW_COASTALFLOOD_NAME_APOCALYPTIC">
+			<Text>Apocalyptic</Text>
+		</Replace>
+		<Replace Language="en_US" Tag="LOC_SETTING_AWW_COASTALFLOOD_DESC_DISABLED">
+			<Text>Lowland coastal tiles will not flood</Text>
+		</Replace>
+		<Replace Language="en_US" Tag="LOC_SETTING_AWW_COASTALFLOOD_DESC_LOW">
+			<Text>Only a handful of tiles will flood due to global warming</Text>
+		</Replace>
+		<Replace Language="en_US" Tag="LOC_SETTING_AWW_COASTALFLOOD_DESC_NORMAL">
+			<Text>A good few tiles will flood due to global warming</Text>
+		</Replace>
+		<Replace Language="en_US" Tag="LOC_SETTING_AWW_COASTALFLOOD_DESC_HIGH">
+			<Text>Many tiles will flood due to global warming</Text>
+		</Replace>
+		<Replace Language="en_US" Tag="LOC_SETTING_AWW_COASTALFLOOD_DESC_APOCALYPTIC">
+			<Text>Kevin Costner's Waterworld</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
