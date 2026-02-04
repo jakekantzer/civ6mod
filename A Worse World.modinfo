@@ -10,10 +10,10 @@
   </Properties>
   <Dependencies>
     <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+    <Mod id="9DE86512-DE1A-400D-8C0A-AB46EBBF76B9" title="GranColumbiaMaya" />
   </Dependencies>
   <References>
     <Mod id="1B394FE9-23DC-4868-8F0A-5220CB8FB427" title="Ethiopia" />
-    <Mod id="9DE86512-DE1A-400D-8C0A-AB46EBBF76B9" title="GranColumbiaMaya" />
   </References>
   <ActionCriteria>
     <Criteria id="ApocalypseMode">
@@ -49,6 +49,7 @@
       <Criteria>ApocalypseMode</Criteria>
       <File>Database/Apocalypse_Environment.sql</File>
       <File>Database/Apocalypse_Soothsayer.xml</File>
+      <File>Database/Apocalypse_Comet37.xml</File>
     </UpdateDatabase>
     <UpdateDatabase id="Soothsayer">
       <Properties>
@@ -86,6 +87,7 @@
     <File>Database/Text.xml</File>
     <File>Database/Apocalypse_Localization.sql</File>
     <File>Database/Apocalypse_Environment.sql</File>
+    <File>Database/Apocalypse_Comet37.xml</File>
     <File>Database/Apocalypse_Soothsayer.xml</File>
     <File>Database/SecretSocieties_Cultist.xml</File>
     <File>Database/Miscellaneous.sql</File>

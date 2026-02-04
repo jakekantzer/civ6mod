@@ -1,0 +1,75 @@
+<GameData>
+	<Types>
+		<Row Type="RANDOM_EVENT_COMET_STRIKE_37" Kind="KIND_RANDOM_EVENT"/>
+		<Row Type="RANDOM_EVENT_COMET_STRIKE_TARGETED_37" Kind="KIND_RANDOM_EVENT"/>
+	</Types>
+	<RandomEvents>
+		<Row RandomEventType="RANDOM_EVENT_COMET_STRIKE_37" Name="LOC_RANDOM_EVENT_COMET_STRIKE_NAME" Description="LOC_RANDOM_EVENT_COMET_STRIKE_DESCRIPTION" EffectString="LOC_RANDOM_EVENT_COMET_STRIKE_EFFECT_DESCRIPTION" EffectOperatorType="COMET_STRIKE" Severity="1" Hexes="37" IconLarge="ClimateEvent_CometImpact" IconSmall="ClimateEventStat_CometImpact"/>
+		<Row RandomEventType="RANDOM_EVENT_COMET_STRIKE_TARGETED_37" Name="LOC_RANDOM_EVENT_COMET_STRIKE_NAME" Description="LOC_RANDOM_EVENT_COMET_STRIKE_DESCRIPTION" EffectString="LOC_RANDOM_EVENT_COMET_STRIKE_EFFECT_DESCRIPTION" EffectOperatorType="COMET_STRIKE" Severity="1" Hexes="37" TargetCities="true" IconLarge="ClimateEvent_CometImpact" IconSmall="ClimateEventStat_CometImpact"/>
+	</RandomEvents>
+	<RandomEvent_Notifications>
+		<Row RandomEventType="RANDOM_EVENT_COMET_STRIKE_37" NotificationType="NOTIFICATION_COMET_LANDS" Title="LOC_COMET_HAPPENED" Summary="LOC_COMET_HAPPENED_DESC"/>
+		<Row RandomEventType="RANDOM_EVENT_COMET_STRIKE_TARGETED_37" NotificationType="NOTIFICATION_COMET_LANDS" Title="LOC_COMET_HAPPENED" Summary="LOC_COMET_HAPPENED_DESC"/>
+	</RandomEvent_Notifications>
+	<RandomEvent_Terrains>
+		<Row RandomEventType="RANDOM_EVENT_COMET_STRIKE_37" TerrainType="TERRAIN_PLAINS"/>
+		<Row RandomEventType="RANDOM_EVENT_COMET_STRIKE_37" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row RandomEventType="RANDOM_EVENT_COMET_STRIKE_37" TerrainType="TERRAIN_PLAINS_MOUNTAIN"/>
+		<Row RandomEventType="RANDOM_EVENT_COMET_STRIKE_37" TerrainType="TERRAIN_GRASS"/>
+		<Row RandomEventType="RANDOM_EVENT_COMET_STRIKE_37" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row RandomEventType="RANDOM_EVENT_COMET_STRIKE_37" TerrainType="TERRAIN_GRASS_MOUNTAIN"/>
+		<Row RandomEventType="RANDOM_EVENT_COMET_STRIKE_37" TerrainType="TERRAIN_SNOW"/>
+		<Row RandomEventType="RANDOM_EVENT_COMET_STRIKE_37" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row RandomEventType="RANDOM_EVENT_COMET_STRIKE_37" TerrainType="TERRAIN_SNOW_MOUNTAIN"/>
+		<Row RandomEventType="RANDOM_EVENT_COMET_STRIKE_37" TerrainType="TERRAIN_DESERT"/>
+		<Row RandomEventType="RANDOM_EVENT_COMET_STRIKE_37" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row RandomEventType="RANDOM_EVENT_COMET_STRIKE_37" TerrainType="TERRAIN_DESERT_MOUNTAIN"/>
+		<Row RandomEventType="RANDOM_EVENT_COMET_STRIKE_37" TerrainType="TERRAIN_TUNDRA"/>
+		<Row RandomEventType="RANDOM_EVENT_COMET_STRIKE_37" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row RandomEventType="RANDOM_EVENT_COMET_STRIKE_37" TerrainType="TERRAIN_TUNDRA_MOUNTAIN"/>
+		<Row RandomEventType="RANDOM_EVENT_COMET_STRIKE_TARGETED_37" TerrainType="TERRAIN_PLAINS"/>
+		<Row RandomEventType="RANDOM_EVENT_COMET_STRIKE_TARGETED_37" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row RandomEventType="RANDOM_EVENT_COMET_STRIKE_TARGETED_37" TerrainType="TERRAIN_PLAINS_MOUNTAIN"/>
+		<Row RandomEventType="RANDOM_EVENT_COMET_STRIKE_TARGETED_37" TerrainType="TERRAIN_GRASS"/>
+		<Row RandomEventType="RANDOM_EVENT_COMET_STRIKE_TARGETED_37" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row RandomEventType="RANDOM_EVENT_COMET_STRIKE_TARGETED_37" TerrainType="TERRAIN_GRASS_MOUNTAIN"/>
+		<Row RandomEventType="RANDOM_EVENT_COMET_STRIKE_TARGETED_37" TerrainType="TERRAIN_SNOW"/>
+		<Row RandomEventType="RANDOM_EVENT_COMET_STRIKE_TARGETED_37" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row RandomEventType="RANDOM_EVENT_COMET_STRIKE_TARGETED_37" TerrainType="TERRAIN_SNOW_MOUNTAIN"/>
+		<Row RandomEventType="RANDOM_EVENT_COMET_STRIKE_TARGETED_37" TerrainType="TERRAIN_DESERT"/>
+		<Row RandomEventType="RANDOM_EVENT_COMET_STRIKE_TARGETED_37" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row RandomEventType="RANDOM_EVENT_COMET_STRIKE_TARGETED_37" TerrainType="TERRAIN_DESERT_MOUNTAIN"/>
+		<Row RandomEventType="RANDOM_EVENT_COMET_STRIKE_TARGETED_37" TerrainType="TERRAIN_TUNDRA"/>
+		<Row RandomEventType="RANDOM_EVENT_COMET_STRIKE_TARGETED_37" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row RandomEventType="RANDOM_EVENT_COMET_STRIKE_TARGETED_37" TerrainType="TERRAIN_TUNDRA_MOUNTAIN"/>
+		<Row RandomEventType="RANDOM_EVENT_COMET_STRIKE_TARGETED_37" TerrainType="TERRAIN_COAST"/>
+	</RandomEvent_Terrains>
+	<RandomEvent_Damages>
+		<Row RandomEventType="RANDOM_EVENT_COMET_STRIKE_37" DamageType="IMPROVEMENT_DESTROYED" Percentage="101"/>
+		<Row RandomEventType="RANDOM_EVENT_COMET_STRIKE_37" DamageType="DISTRICT_PILLAGED" Percentage="101"/>
+		<Row RandomEventType="RANDOM_EVENT_COMET_STRIKE_37" DamageType="UNIT_KILLED_CIVILIAN" Percentage="101"/>
+		<Row RandomEventType="RANDOM_EVENT_COMET_STRIKE_37" DamageType="UNIT_DAMAGE_LAND" Percentage="101" MinHP="101" MaxHP="101"/>
+		<Row RandomEventType="RANDOM_EVENT_COMET_STRIKE_37" DamageType="POPULATION_LOSS" Percentage="101"/>
+		<Row RandomEventType="RANDOM_EVENT_COMET_STRIKE_37" DamageType="CITY_DESTROYED" Percentage="101"/>
+		<Row RandomEventType="RANDOM_EVENT_COMET_STRIKE_TARGETED_37" DamageType="IMPROVEMENT_DESTROYED" Percentage="101"/>
+		<Row RandomEventType="RANDOM_EVENT_COMET_STRIKE_TARGETED_37" DamageType="DISTRICT_PILLAGED" Percentage="101"/>
+		<Row RandomEventType="RANDOM_EVENT_COMET_STRIKE_TARGETED_37" DamageType="UNIT_KILLED_CIVILIAN" Percentage="101"/>
+		<Row RandomEventType="RANDOM_EVENT_COMET_STRIKE_TARGETED_37" DamageType="UNIT_DAMAGE_LAND" Percentage="101" MinHP="101" MaxHP="101"/>
+		<Row RandomEventType="RANDOM_EVENT_COMET_STRIKE_TARGETED_37" DamageType="POPULATION_LOSS" Percentage="101"/>
+		<Row RandomEventType="RANDOM_EVENT_COMET_STRIKE_TARGETED_37" DamageType="CITY_DESTROYED" Percentage="101"/>
+	</RandomEvent_Damages>
+	<RandomEvent_Yields>
+		<Row RandomEventType="RANDOM_EVENT_COMET_STRIKE_37" YieldType="YIELD_SCIENCE" Amount ="0" FeatureType="FEATURE_COMET_LAKE" Percentage="100" ReplaceFeature="true"/>
+		<Row RandomEventType="RANDOM_EVENT_COMET_STRIKE_TARGETED_37" YieldType="YIELD_SCIENCE" Amount ="0" FeatureType="FEATURE_COMET_LAKE" Percentage="100" ReplaceFeature="true"/>
+	</RandomEvent_Yields>
+	<RandomEvent_Presentation>
+		<Row RandomEventType="RANDOM_EVENT_COMET_STRIKE_37" Animation="REVEAL_COMET" Sound="Play_Disaster_CometStrike_Movie_Loop" MFX="Comet_Strike" SequenceType="SCENE_EVENT_TRIGGER" Callback="GetAffectedPlots_OneOff"/>
+		<Row RandomEventType="RANDOM_EVENT_COMET_STRIKE_TARGETED_37" Animation="REVEAL_COMET" Sound="Play_Disaster_CometStrike_Movie_Loop" MFX="Comet_Strike" SequenceType="SCENE_EVENT_TRIGGER" Callback="GetAffectedPlots_OneOff"/>
+	</RandomEvent_Presentation>
+	<RandomEvent_Frequencies>
+		<Row RandomEventType="RANDOM_EVENT_COMET_STRIKE_37" RealismSettingType="REALISM_SETTING_MEGADISASTERS" OccurrencesPerGame="4"/>
+		<Row RandomEventType="RANDOM_EVENT_COMET_STRIKE_TARGETED_37" RealismSettingType="REALISM_SETTING_MEGADISASTERS" OccurrencesPerGame="2"/>
+		<Row RandomEventType="RANDOM_EVENT_COMET_STRIKE_37" RealismSettingType="REALISM_SETTING_APOCALYPSE" OccurrencesPerGame="400"/>
+		<Row RandomEventType="RANDOM_EVENT_COMET_STRIKE_TARGETED_37" RealismSettingType="REALISM_SETTING_APOCALYPSE" OccurrencesPerGame="200"/>
+	</RandomEvent_Frequencies>
+</GameData>
