@@ -25,6 +25,21 @@ When figuring out how to implement something, official game files are the best (
 
 *(The exact drive letter and Steam library path may vary per machine. Search for `Sid Meier's Civilization VI` under the appropriate `steamapps\common` path if different.)*
 
+### Steam Workshop Mods (Working Examples)
+
+When you need to see how something is *actually* done in a working mod, browse the installed Workshop content:
+
+```
+C:\Program Files (x86)\Steam\steamapps\workshop\content\289070\
+```
+
+*(Each subfolder is a Workshop item ID. Use Steam or the in-game Mods menu to identify which ID belongs to which mod.)*
+
+This is often more useful than base-game files because:
+- Workshop mods use the same modding pipeline we do.
+- They show complete, working examples of custom wonders, units, civilizations, etc.
+- They demonstrate how to package artdefs, icons, and assets properly.
+
 Key subdirectories to search:
 - `Gameplay/` — Core SQL database definitions, XML data
 - `Text/` — Localization files
@@ -46,6 +61,7 @@ C:\Users\<username>\Documents\My Games\Sid Meier's Civilization VI\Mods\ApocMode
 
 - **`SUMMARY.md`** must be kept up to date with any structural or behavioral changes. If you add a new file, change a modifier value, alter load conditions, or modify a script, update `SUMMARY.md` accordingly.
 - This `AGENTS.md` should be updated if build steps, file references, or project conventions change.
+- **`docs/`** is our library of *Shit We Learned* — implementation research, reference guides, and notes on base-game file structures. See [`docs/README.md`](docs/README.md). Add to it whenever we explore something nontrivial.
 
 ---
 

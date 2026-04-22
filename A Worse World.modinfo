@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Mod id="2f92faf8-22c8-4a8b-bb6e-53a62afd37d3" version="1">
   <Properties>
     <Name>A Worse World</Name>
@@ -64,6 +64,7 @@
       </Properties>
       <File>Database/Miscellaneous.sql</File>
       <File>Database/WMDs.xml</File>
+      <File>Database/Ultracristo/Ultracristo.xml</File>
     </UpdateDatabase>
     <UpdateText id="ApocalypseText">
       <Properties>
@@ -72,6 +73,18 @@
       <Criteria>ApocalypseMode</Criteria>
       <File>Database/Apocalypse_Localization.sql</File>
     </UpdateText>
+    <UpdateText id="BaseText">
+      <Properties>
+        <LoadOrder>15</LoadOrder>
+      </Properties>
+      <File>Database/Ultracristo/Ultracristo_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="UltracristoIcons">
+      <Properties>
+        <LoadOrder>15</LoadOrder>
+      </Properties>
+      <File>Database/Ultracristo/Ultracristo_Icons.xml</File>
+    </UpdateIcons>
     <AddGameplayScripts id="WMDs_Script">
       <Properties>
           <LoadOrder>20500</LoadOrder>
@@ -81,6 +94,9 @@
     <ImportFiles id="MapScripts">
       <File>Maps/Utility/CoastalLowlands.lua</File>
     </ImportFiles>
+    <UpdateArt id="UltracristoArt">
+      <File>Ultracristo.dep</File>
+    </UpdateArt>
   </InGameActions>
   <Files>
     <File>Database/Setup.xml</File>
@@ -92,6 +108,12 @@
     <File>Database/SecretSocieties_Cultist.xml</File>
     <File>Database/Miscellaneous.sql</File>
     <File>Database/WMDs.xml</File>
+    <File>Database/Ultracristo/Ultracristo.xml</File>
+    <File>Database/Ultracristo/Ultracristo_Text.xml</File>
+    <File>Database/Ultracristo/Ultracristo_Icons.xml</File>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/WonderMovie.artdef</File>
+    <File>Ultracristo.dep</File>
     <File>Maps/Utility/CoastalLowlands.lua</File>
     <File>Scripts/WMDs.lua</File>
   </Files>

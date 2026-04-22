@@ -39,12 +39,21 @@ Database/
   SecretSocieties_Cultist.xml   -- Cultist & Dark Summoning buffs (Secret Societies)
   Miscellaneous.sql             -- Global unit, district, barbarian, & religion tweaks
   WMDs.xml                      -- Nuclear weapon & satellite changes
+  Ultracristo/
+    Ultracristo.xml           -- New wonder: Ultracristo Vinditador
+    Ultracristo_Text.xml      -- Localization for Ultracristo Vinditador
+    Ultracristo_Icons.xml     -- Icon definitions for Ultracristo Vinditador
 
 Scripts/
   WMDs.lua                  -- Gameplay script: destroys cities hit by WMDs
 
 Maps/Utility/
   CoastalLowlands.lua       -- Custom map generation for coastal lowland marking
+
+ArtDefs/
+  Buildings.artdef              -- Visual binding to Cristo Redentor assets
+  WonderMovie.artdef            -- Cinematic binding to Cristo Redentor assets
+Ultracristo.dep                 -- Art dependency file for loading artdefs
 ```
 
 ---
@@ -169,6 +178,17 @@ These files only load when **Secret Societies Game Mode** is active.
   - If the tile contains a **city**, that city is **immediately destroyed** (razed).
   - Logs the detonation coordinates and attacking player.
 
+#### `Ultracristo/` (New Wonder)
+- **Ultracristo Vinditador** — a new world wonder based on Cristo Redentor.
+- **Prerequisite:** `CIVIC_MASS_MEDIA`
+- **Cost:** `1620` Production
+- **Placement:** Hills only (Grass, Plains, Tundra, Snow, Desert)
+- **Yields:** `+4` Culture, `+4` Faith
+- **Effect:** Enemy cities within `10` tiles lose `15` Loyalty per turn.
+  - Implemented via `MODIFIER_ALL_CITIES_ATTACH_MODIFIER` distributing `MODIFIER_SINGLE_CITY_ADJUST_IDENTITY_PER_TURN` to cities within range whose owner does not possess the wonder.
+- **Visuals:** Reuses Cristo Redentor's in-game model, strategic view icon, and construction cinematic.
+- **Flavor Quote:** *"They built a redeemer to forgive. We built an avenger to ensure there is nothing left to forgive."*
+
 ---
 
 ### 5. Map Generation (`CoastalLowlands.lua`)
@@ -223,3 +243,4 @@ The included `update.bat` script will:
 | **Space Race** | Cheaper spaceport & projects | Slightly easier science victory |
 | **Coastal Flooding** | Configurable cascading lowlands | Player-controlled apocalyptic flooding |
 | **Secret Societies** | Cultists teleport, Dark Summoning triggers Apocalypse | Stronger secret society synergy |
+| **Wonders** | Ultracristo Vinditador | Massive area-of-effect loyalty drain on enemies |

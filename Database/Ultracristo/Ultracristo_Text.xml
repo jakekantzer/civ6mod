@@ -1,0 +1,13 @@
+<GameData>
+	<LocalizedText>
+		<Replace Language="en_US" Tag="LOC_BUILDING_ULTRACRISTO_VINDITADOR_NAME">
+			<Text>Ultracristo Vinditador</Text>
+		</Replace>
+		<Replace Language="en_US" Tag="LOC_BUILDING_ULTRACRISTO_VINDITADOR_DESCRIPTION">
+			<Text>+4 Culture. +4 Faith. Enemy cities near this wonder lose 15 Loyalty per turn.</Text>
+		</Replace>
+		<Replace Language="en_US" Tag="LOC_BUILDING_ULTRACRISTO_VINDITADOR_QUOTE">
+			<Text>"They built a redeemer to forgive. We built an avenger to ensure there is nothing left to forgive."</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

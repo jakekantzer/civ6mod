@@ -1,0 +1,6 @@
+<GameData>
+	<IconDefinitions>
+		<Row Name="ICON_BUILDING_ULTRACRISTO_VINDITADOR"     Atlas="ICON_ATLAS_WONDERS"     Index="27"/>
+		<Row Name="ICON_BUILDING_ULTRACRISTO_VINDITADOR_FOW" Atlas="ICON_ATLAS_WONDERS_FOW" Index="27"/>
+	</IconDefinitions>
+</GameData>

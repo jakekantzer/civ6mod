@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..GameDependencyData>
+	<ID>
+		<name text="Ultracristo_Vinditador"/>
+		<id text="2f92faf8-22c8-4a8b-bb6e-53a62afd37d3"/>
+	</ID>
+	<RequiredGameArtIDs/>
+	<SystemDependencies>
+		<Element>
+			<ConsumerName text="StrategicView_Sprite"/>
+			<ArtDefDependencyPaths>
+				<Element text="Buildings.artdef"/>
+				<Element text="StrategicView.artdef"/>
+			</ArtDefDependencyPaths>
+			<LibraryDependencies>
+				<Element text="StrategicView_Sprite"/>
+				<Element text="StrategicView_DirectedAsset"/>
+			</LibraryDependencies>
+			<LoadsLibraries>true</LoadsLibraries>
+		</Element>
+		<Element>
+			<ConsumerName text="WonderMovie"/>
+			<ArtDefDependencyPaths>
+				<Element text="WonderMovie.artdef"/>
+			</ArtDefDependencyPaths>
+			<LibraryDependencies>
+				<Element text="WonderMovie"/>
+				<Element text="TileBase"/>
+				<Element text="GameLighting"/>
+				<Element text="ColorKey"/>
+			</LibraryDependencies>
+			<LoadsLibraries>true</LoadsLibraries>
+		</Element>
+	</SystemDependencies>
+	<ArtDefDependencies>
+		<Element>
+			<ArtDefPath text="StrategicView.artdef"/>
+			<ArtDefDependencyPaths/>
+		</Element>
+		<Element>
+			<ArtDefPath text="Buildings.artdef"/>
+			<ArtDefDependencyPaths>
+				<Element text="StrategicView.artdef"/>
+				<Element text="Buildings.artdef"/>
+			</ArtDefDependencyPaths>
+		</Element>
+		<Element>
+			<ArtDefPath text="WonderMovie.artdef"/>
+			<ArtDefDependencyPaths>
+				<Element text="WonderMovie.artdef"/>
+			</ArtDefDependencyPaths>
+		</Element>
+	</ArtDefDependencies>
+	<LibraryDependencies>
+		<Element>
+			<LibraryName text="StrategicView_Sprite"/>
+			<PackageDependencies/>
+		</Element>
+		<Element>
+			<LibraryName text="WonderMovie"/>
+			<PackageDependencies/>
+		</Element>
+	</LibraryDependencies>
+</AssetObjects..GameDependencyData>
