@@ -103,6 +103,9 @@
       </Properties>
       <File>UI/UltracristoVFX.xml</File>
     </AddUserInterfaces>
+    <ImportFiles id="UltracristoVFXFiles">
+      <File>UI/UltracristoVFX.lua</File>
+    </ImportFiles>
   </InGameActions>
   <Files>
     <File>Database/Setup.xml</File>

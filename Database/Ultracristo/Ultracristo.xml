@@ -38,11 +38,17 @@
 		<Row RequirementSetId="PLAYER_HAS_ULTRACRISTO" RequirementId="REQUIRES_PLAYER_HAS_ULTRACRISTO"/>
 		<Row RequirementSetId="CITY_NEAR_ULTRACRISTO" RequirementId="REQUIRES_CITY_NEAR_ULTRACRISTO"/>
 		<Row RequirementSetId="PLAYER_DOES_NOT_HAVE_ULTRACRISTO" RequirementId="REQUIRES_PLAYER_NO_ULTRACRISTO"/>
+		<Row RequirementSetId="PLAYER_DOES_NOT_HAVE_ULTRACRISTO" RequirementId="REQUIRES_NOT_DECLARED_FRIEND"/>
+		<Row RequirementSetId="PLAYER_DOES_NOT_HAVE_ULTRACRISTO" RequirementId="REQUIRES_NOT_TEAM_MEMBER"/>
+		<Row RequirementSetId="PLAYER_DOES_NOT_HAVE_ULTRACRISTO" RequirementId="REQUIRES_NOT_ALLY"/>
 	</RequirementSetRequirements>
 	<Requirements>
 		<Row RequirementId="REQUIRES_PLAYER_HAS_ULTRACRISTO" RequirementType="REQUIREMENT_PLAYER_HAS_BUILDING"/>
 		<Row RequirementId="REQUIRES_CITY_NEAR_ULTRACRISTO" RequirementType="REQUIREMENT_PLOT_ADJACENT_BUILDING_TYPE_MATCHES"/>
 		<Row RequirementId="REQUIRES_PLAYER_NO_ULTRACRISTO" RequirementType="REQUIREMENT_PLAYER_HAS_BUILDING" Inverse="1"/>
+		<Row RequirementId="REQUIRES_NOT_DECLARED_FRIEND" RequirementType="REQUIREMENT_DECLARED_FRIEND" Inverse="1"/>
+		<Row RequirementId="REQUIRES_NOT_TEAM_MEMBER" RequirementType="REQUIREMENT_PLAYER_IS_TEAM_MEMBER" Inverse="1"/>
+		<Row RequirementId="REQUIRES_NOT_ALLY" RequirementType="REQUIREMENT_PLAYER_HAS_ACTIVE_ALLIANCE_OF_AT_LEAST_LEVEL" Inverse="1"/>
 	</Requirements>
 	<RequirementArguments>
 		<Row RequirementId="REQUIRES_PLAYER_HAS_ULTRACRISTO" Name="BuildingType" Value="BUILDING_ULTRACRISTO_VINDITADOR"/>
@@ -50,6 +56,7 @@
 		<Row RequirementId="REQUIRES_CITY_NEAR_ULTRACRISTO" Name="MaxRange" Value="10"/>
 		<Row RequirementId="REQUIRES_CITY_NEAR_ULTRACRISTO" Name="MinRange" Value="0"/>
 		<Row RequirementId="REQUIRES_PLAYER_NO_ULTRACRISTO" Name="BuildingType" Value="BUILDING_ULTRACRISTO_VINDITADOR"/>
+		<Row RequirementId="REQUIRES_NOT_ALLY" Name="Level" Value="1"/>
 	</RequirementArguments>
 
 	<!-- Modifiers -->
