@@ -97,6 +97,12 @@
     <UpdateArt id="UltracristoArt">
       <File>Ultracristo.dep</File>
     </UpdateArt>
+    <AddUserInterfaces id="UltracristoVFX">
+      <Properties>
+        <Context>InGame</Context>
+      </Properties>
+      <File>UI/UltracristoVFX.xml</File>
+    </AddUserInterfaces>
   </InGameActions>
   <Files>
     <File>Database/Setup.xml</File>
@@ -116,5 +122,7 @@
     <File>Ultracristo.dep</File>
     <File>Maps/Utility/CoastalLowlands.lua</File>
     <File>Scripts/WMDs.lua</File>
+    <File>UI/UltracristoVFX.xml</File>
+    <File>UI/UltracristoVFX.lua</File>
   </Files>
 </Mod>

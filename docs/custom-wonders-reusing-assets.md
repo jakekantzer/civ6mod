@@ -89,6 +89,7 @@ Standard `LocalizedText` entries needed:
 What you *can* do via `.artdef` tweaks:
 - **TintColor** in `WonderMovie.artdef` — tints the **final postcard/freeze-frame** at the end of the construction movie. It does **not** tint the entire cinematic. Tested: a blood-red tint only appeared momentarily on the closing still image.
 - **TimeOfDayCurve** — controls the time-of-day progression during the wonder cinematic. You can create custom curves (e.g., `Night_Only` with `TimeOfDay=2.0`) to keep the entire movie at nighttime. The curve lives in the `TimeOfDayCurves` root collection of `WonderMovie.artdef`.
+- **One-shot VFX via Lua UI script** — you can create a UI script (loaded via `AddUserInterfaces`) that hooks `Events.WonderCompleted` and calls `WorldView.PlayEffectAtXY("DISASTER_NUCLEAR_MELTDOWN", x, y)` to play existing disaster/explosion effects at the wonder tile. This is UI-side only; `WorldView` is not available in gameplay scripts.
 - **VFX references** — if you can find existing VFX entries in `VFX.artdef` that work for buildings, you might be able to cross-reference them.
 
 What you *cannot* do without the SDK:

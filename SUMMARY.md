@@ -47,6 +47,10 @@ Database/
 Scripts/
   WMDs.lua                  -- Gameplay script: destroys cities hit by WMDs
 
+UI/
+  UltracristoVFX.xml        -- UI context for Ultracristo VFX
+  UltracristoVFX.lua        -- Plays DISASTER_NUCLEAR_MELTDOWN on wonder completion
+
 Maps/Utility/
   CoastalLowlands.lua       -- Custom map generation for coastal lowland marking
 
@@ -186,7 +190,7 @@ These files only load when **Secret Societies Game Mode** is active.
 - **Yields:** `+4` Culture, `+4` Faith
 - **Effect:** Enemy cities within `10` tiles lose `15` Loyalty per turn.
   - Implemented via `MODIFIER_ALL_CITIES_ATTACH_MODIFIER` distributing `MODIFIER_SINGLE_CITY_ADJUST_IDENTITY_PER_TURN` to cities within range whose owner does not possess the wonder.
-- **Visuals:** Reuses Cristo Redentor's in-game model, strategic view icon, and construction cinematic. The cinematic plays at nighttime only (`Night_Only` TimeOfDayCurve), and the closing still frame is tinted blood red via `TintColor`.
+- **Visuals:** Reuses Cristo Redentor's in-game model, strategic view icon, and construction cinematic. The cinematic plays at nighttime only (`Night_Only` TimeOfDayCurve), and the closing still frame is tinted blood red via `TintColor`. On completion, a `DISASTER_NUCLEAR_MELTDOWN` VFX plays at the wonder tile.
 - **Flavor Quote:** *"They built a redeemer to forgive. We built an avenger to ensure there is nothing left to forgive."*
 
 ---
