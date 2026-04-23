@@ -180,8 +180,8 @@ These files only load when **Secret Societies Game Mode** is active.
 
 #### `Ultracristo/` (New Wonder)
 - **Ultracristo Vinditador** — a new world wonder based on Cristo Redentor.
-- **Prerequisite:** `CIVIC_MASS_MEDIA`
-- **Cost:** `1620` Production
+- **Prerequisite:** `CIVIC_CIVIL_ENGINEERING`
+- **Cost:** `1240` Production
 - **Placement:** Hills only (Grass, Plains, Tundra, Snow, Desert)
 - **Yields:** `+4` Culture, `+4` Faith
 - **Effect:** Enemy cities within `10` tiles lose `15` Loyalty per turn.
