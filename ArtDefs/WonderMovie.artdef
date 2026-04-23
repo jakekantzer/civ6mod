@@ -23,9 +23,9 @@
 							<m_ParamName text="Asset"/>
 						</Element>
 						<Element class="AssetObjects..RGBValue">
-							<m_r>255.000000</m_r>
-							<m_g>255.000000</m_g>
-							<m_b>255.000000</m_b>
+							<m_r>200.000000</m_r>
+							<m_g>20.000000</m_g>
+							<m_b>20.000000</m_b>
 							<m_ParamName text="TintColor"/>
 						</Element>
 						<Element class="AssetObjects..ArtDefReferenceValue">
@@ -37,7 +37,7 @@
 							<m_ParamName text="FOVCurve"/>
 						</Element>
 						<Element class="AssetObjects..ArtDefReferenceValue">
-							<m_ElementName text="DEFAULT"/>
+							<m_ElementName text="Night_Only"/>
 							<m_RootCollectionName text="TimeOfDayCurves"/>
 							<m_ArtDefPath text="WonderMovie.artdef"/>
 							<m_CollectionIsLocked>false</m_CollectionIsLocked>
@@ -96,6 +96,40 @@
 				</m_Fields>
 				<m_ChildCollections/>
 				<m_Name text="BUILDING_ULTRACRISTO_VINDITADOR"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+		</Element>
+		<Element>
+			<m_CollectionName text="TimeOfDayCurves"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Curve"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>0.000000</m_fValue>
+										<m_ParamName text="Time"/>
+									</Element>
+									<Element class="AssetObjects..FloatValue">
+										<m_fValue>2.000000</m_fValue>
+										<m_ParamName text="TimeOfDay"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Curve"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="Night_Only"/>
 				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 		</Element>
