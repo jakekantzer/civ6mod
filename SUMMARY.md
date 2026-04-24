@@ -189,7 +189,7 @@ These files only load when **Secret Societies Game Mode** is active.
 - **Placement:** Hills only (Grass, Plains, Tundra, Snow, Desert)
 - **Yields:** `+4` Culture, `+4` Faith
 - **Effect:** Enemy cities within `10` tiles lose `15` Loyalty per turn.
-  - Implemented via `MODIFIER_ALL_CITIES_ATTACH_MODIFIER` distributing `MODIFIER_SINGLE_CITY_ADJUST_IDENTITY_PER_TURN` to cities within range whose owner does not possess the wonder.
+  - Implemented via `MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER` filtering out the owner, allies, declared friends, and teammates first, then `MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER` distributes `MODIFIER_SINGLE_CITY_ADJUST_IDENTITY_PER_TURN` to each remaining player's cities within range.
 - **Visuals:** Reuses Cristo Redentor's in-game model, strategic view icon, and construction cinematic. The cinematic plays at nighttime only (`Night_Only` TimeOfDayCurve), and the closing still frame is tinted blood red via `TintColor`. On completion, a `DISASTER_NUCLEAR_MELTDOWN` VFX plays at the wonder tile. At the start of each turn, a `NUCLEAR_FALLOUT` VFX pulses on every valid enemy city within 10 tiles.
 - **Flavor Quote:** *"They built a redeemer to forgive. We built an avenger to ensure there is nothing left to forgive."*
 
