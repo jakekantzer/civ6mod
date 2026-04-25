@@ -112,6 +112,9 @@
     <ImportFiles id="UltracristoVFXFiles">
       <File>UI/UltracristoVFX.lua</File>
     </ImportFiles>
+    <UpdateAudio id="UltracristoAudio">
+      <File>Platforms/Windows/Audio/Ultracristo_Audio.ini</File>
+    </UpdateAudio>
   </InGameActions>
   <Files>
     <File>Database/Setup.xml</File>
@@ -134,5 +137,8 @@
     <File>Scripts/UltracristoDestruction.lua</File>
     <File>UI/UltracristoVFX.xml</File>
     <File>UI/UltracristoVFX.lua</File>
+    <File>Platforms/Windows/Audio/Ultracristo_Audio.ini</File>
+    <File>Platforms/Windows/Audio/avenger.wav</File>
+    <File>Platforms/Windows/Audio/Ultracristo_Audio.bnk</File>
   </Files>
 </Mod>

@@ -58,6 +58,9 @@ Maps/Utility/
 ArtDefs/
   Buildings.artdef              -- Visual binding to Cristo Redentor assets
   WonderMovie.artdef            -- Cinematic binding to Cristo Redentor assets
+Platforms/Windows/Audio/
+  Ultracristo_Audio.ini       -- Soundbank registration for custom wonder quote audio
+  avenger.wav                 -- Source audio for wonder completion quote (must be converted to Wwise .bnk)
 Ultracristo.dep                 -- Art dependency file for loading artdefs
 ```
 
@@ -197,6 +200,7 @@ These files only load when **Secret Societies Game Mode** is active.
   - **Religious Pressure:** The city containing the wonder exerts extreme religious pressure (`+1000%`) on all nearby cities, similar to the Cardinal Bishop governor.
 - **Visuals:** Reuses Cristo Redentor's in-game model, strategic view icon, and construction cinematic. The cinematic plays at nighttime only (`Night_Only` TimeOfDayCurve), and the closing still frame is tinted blood red via `TintColor`. On completion, a `DISASTER_NUCLEAR_MELTDOWN` VFX plays at the wonder tile. At the start of each turn, a `UNIT_SACRIFICE_UNIT` VFX pulses on the wonder tile.
 - **Flavor Quote:** *"They built a redeemer to forgive. We built an avenger to ensure there is nothing left to forgive."*
+- **Custom Quote Audio:** `Play_ULTRACRISTO_QUOTE` (requires Wwise soundbank `Ultracristo_Audio.bnk` to be generated from `avenger.wav`)
 
 ---
 

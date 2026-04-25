@@ -14,7 +14,7 @@
 			 RequiresPlacement="true"
 			 ObsoleteEra="ERA_INFORMATION"
 			 Quote="LOC_BUILDING_ULTRACRISTO_VINDITADOR_QUOTE"
-			 QuoteAudio="Play_CRISTOREDENTOR_QUOTE"/>
+			 QuoteAudio="Play_ULTRACRISTO_QUOTE"/>
 	</Buildings>
 	<Building_YieldChanges>
 		<Row BuildingType="BUILDING_ULTRACRISTO_VINDITADOR" YieldType="YIELD_CULTURE" YieldChange="4"/>
