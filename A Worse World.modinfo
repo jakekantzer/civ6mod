@@ -91,6 +91,12 @@
       </Properties>
       <File priority="10">Scripts/WMDs.lua</File>
     </AddGameplayScripts>
+    <AddGameplayScripts id="UltracristoDestruction_Script">
+      <Properties>
+          <LoadOrder>20500</LoadOrder>
+      </Properties>
+      <File priority="10">Scripts/UltracristoDestruction.lua</File>
+    </AddGameplayScripts>
     <ImportFiles id="MapScripts">
       <File>Maps/Utility/CoastalLowlands.lua</File>
     </ImportFiles>
@@ -125,6 +131,7 @@
     <File>Ultracristo.dep</File>
     <File>Maps/Utility/CoastalLowlands.lua</File>
     <File>Scripts/WMDs.lua</File>
+    <File>Scripts/UltracristoDestruction.lua</File>
     <File>UI/UltracristoVFX.xml</File>
     <File>UI/UltracristoVFX.lua</File>
   </Files>

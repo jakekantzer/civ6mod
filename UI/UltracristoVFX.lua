@@ -5,6 +5,7 @@
 print("UltracristoVFX: Script loaded")
 
 local ULTRACRISTO_BUILDING = GameInfo.Buildings["BUILDING_ULTRACRISTO_VINDITADOR"].Index
+local MAX_PLAYERS = 63
 local m_UltracristoLocations = {} -- {x, y}
 
 -- ===========================================================================
@@ -19,9 +20,8 @@ end
 -- ===========================================================================
 function FindUltracristoWonders()
 	m_UltracristoLocations = {}
-	local count = PlayerManager.GetWasEverAliveCount()
-	print(string.format("UltracristoVFX: Scanning %d players for wonder", count))
-	for iPlayer = 0, count - 1 do
+	print(string.format("UltracristoVFX: Scanning %d players for wonder", MAX_PLAYERS))
+	for iPlayer = 0, MAX_PLAYERS - 1 do
 		local pPlayer = Players[iPlayer]
 		if pPlayer and pPlayer:GetCities() then
 			for _, pCity in pPlayer:GetCities():Members() do
