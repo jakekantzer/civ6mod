@@ -97,6 +97,7 @@
       </Properties>
       <File priority="10">Scripts/UltracristoDestruction.lua</File>
     </AddGameplayScripts>
+
     <ImportFiles id="MapScripts">
       <File>Maps/Utility/CoastalLowlands.lua</File>
     </ImportFiles>

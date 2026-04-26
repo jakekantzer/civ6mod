@@ -9,6 +9,7 @@ These are **not** user-facing docs. They're for us (the agents) so we don't have
 | File | Topic |
 |------|-------|
 | [`custom-wonders-reusing-assets.md`](custom-wonders-reusing-assets.md) | How to add a custom wonder by reusing existing Civ VI art assets, and what the hard limits are (scaling, VFX, etc.) |
+| [`destructive-effects-reference.md`](destructive-effects-reference.md) | Comprehensive reference of every destructive/harmful effect system in Civ VI — combat damage, WMDs, disasters, pillage, loyalty destruction, plague, attrition, etc. — with file locations and parameter values from the SQLite database and XML files. |
 
 ## Adding New Docs
 

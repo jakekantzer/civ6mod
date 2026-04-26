@@ -48,6 +48,7 @@ Scripts/
   WMDs.lua                        -- Gameplay script: destroys cities hit by WMDs
   UltracristoDestruction.lua      -- Gameplay script: reduces enemy city pop near the wonder each turn
 
+
 UI/
   UltracristoVFX.xml        -- UI context for Ultracristo VFX
   UltracristoVFX.lua        -- Plays DISASTER_NUCLEAR_MELTDOWN on wonder completion
@@ -224,6 +225,14 @@ A custom Lua map utility that overrides how **Coastal Lowlands** are marked for 
   - Adjacent hills/mountains (`-50`).
 
 This creates a cascading flood-vulnerability effect where lowlands spread inland from the coast in a realistic pattern.
+
+---
+
+## Documentation
+
+| File | Topic |
+|------|-------|
+| [`docs/destructive-effects-reference.md`](docs/destructive-effects-reference.md) | Comprehensive reference of all destructive/harmful effect systems in Civ VI — combat damage, WMDs, disasters, pillage, loyalty destruction, plague, attrition, etc. — with file locations and parameter values from the SQLite database and XML files. |
 
 ---
 
